@@ -74,7 +74,7 @@ spec:
             path: kubernetes
             role: policy-admin
           path: quay
-          namespaceName: raf-backstage-demo
+          namespaceName: phac008
           defaultPermission: read
       excludedPaths:
         - .metadata
@@ -133,7 +133,7 @@ spec:
             path: kubernetes
             role: policy-admin
           path: quay
-          namespaceName: raf-backstage-demo
+          namespaceName: phac008
           namespaceType: organization
           defaultPermission: write
           createRepositories: true

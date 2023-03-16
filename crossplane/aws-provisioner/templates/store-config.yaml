@@ -8,7 +8,7 @@
 #   type: Vault
 #   defaultScope: {{ .Release.Namespace }}
 #   vault:
-#     server: "https://vault.apps.control-cluster-raffa.demo.red-chesterfield.com"
+#     server: "https://vault.apps.cluster1.mcp.pitagora.at"
 #     mountPath: crossplane/
 #     version: v2
 #     auth:
